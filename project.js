@@ -19,7 +19,6 @@ function eventListeners() {
     document.addEventListener("DOMContentLoaded", function() {
         let films = storage.getFilmsFromStorage();
         ui.loadAllFilms(films);
-
     });
 
     cardbody.addEventListener("click", deleteFilm);
